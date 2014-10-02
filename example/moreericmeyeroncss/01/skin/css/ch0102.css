@@ -3,5 +3,36 @@ a.navlink {
 }
 
 body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font: x-small Verdana, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    padding: 0;
+}
+
+#navbar {
+    background: #F0DFB4 url(../image/tab-curve.gif) bottom left no-repeat;
+    position: absolute;
+    padding: 2px 0 2px 32px;
+    top: 44px;
+    right: 0;
+    white-space: nowrap;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #000;
+    padding: 0 1em 1px 0;
+    border-bottom: 1px solid gray;
+}
+
+#navbar b {
+    display: none;
 }
