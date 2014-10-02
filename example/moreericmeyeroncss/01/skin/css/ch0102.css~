@@ -20,7 +20,7 @@ body {
 }
 
 #info table {
-    font: small Arial, Verdana, Helvetica, sans-serif;
+    font: smal Arial, Verdana, Helvetica, sans-serif;
 }
 
 #info td {
