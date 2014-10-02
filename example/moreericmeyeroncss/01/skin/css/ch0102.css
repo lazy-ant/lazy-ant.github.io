@@ -36,3 +36,15 @@ td {
 #navbar b {
     display: none;
 }
+
+#review h2 {
+    font-size: x-large;
+    color: #600;
+    margin: 1em 0 0;
+}
+
+#review #summary {
+    font-size: small;
+    border-top: 1px dotted #600;
+    display: inline;
+}
