@@ -73,7 +73,7 @@ body {
     text-indent: 2em;
 }
 
-#review #summary {
+#review .summary {
     font-size: small;
     border-top: 1px dotted #600;
     display: inline;
