@@ -5,13 +5,3 @@ a.navlink {
 body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
-
-table {
-    border: 2px solid red;
-    margin: 2px;
-}
-
-td {
-    border: 1px dotted purple;
-    padding: 1px;
-}
