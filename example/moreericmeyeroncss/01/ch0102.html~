@@ -25,7 +25,7 @@
         <div id="review">
             <h2>Matsu</h2>
 
-            <p class="summary"><strong>Bottom Line:</strong> Friendly, cozy, and oh so tasty</p>
+            <p id="summary"><strong>Bottom Line:</strong> Friendly, cozy, and oh so tasty</p>
 
             <div id="info">
                 <table cellspacing="0">
