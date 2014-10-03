@@ -49,4 +49,5 @@ li.title {
     display: block;
     list-style: none;
     text-align: center;
+    white-space: nowrap;
 }
