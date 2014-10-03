@@ -1,0 +1,74 @@
+a.tn {
+    float: left;
+}
+
+a.tn img {
+    border: 1px solid #333;
+    border-width: 1px 2px 2px 1px;
+    margin: 0 0 1em;
+}
+
+body {
+    background: #EDD;
+    margin: 1em;
+}
+
+div#footer {
+    clear: both;
+    padding-top: 3em;
+    font: 85% Verdana, sans-serif;
+}
+
+div.ls a.tn {
+    width: 132px;
+}
+
+div.pic {
+    margin: 10px;
+    padding: 0;
+    clear: left;
+    width: 350px;
+}
+
+div.pic li {
+    list-style: none;
+    font-size: small;
+    line-height: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+
+div.pic li.title {
+    font: bold small Arial, Verdana, sans-serif;
+    padding-top: 0.5em;
+    border-bottom: 1px solid;
+}
+
+div.pic li.catno {
+    color: #776;
+    text-align: right;
+    margin: 0 4.5em 0 auto;
+    width: 4em;
+    border-left: 1px solid;
+}
+
+div.pic li.price {
+    color: #776;
+    text-align: right;
+    font-style: italic;
+    margin: -1.2em 3px 0 auto;
+    width: 4em;
+    border-left: 1px solid;
+}
+
+div.pic ul {
+    margin: 0 0 0 140px;
+    padding: 0 0 0 0.5em;
+    background: #CBB;
+    border: 3px double #552;
+}
+
+div.pt a.tn {
+    width 100px;
+    margin-left: 32px;
+}
