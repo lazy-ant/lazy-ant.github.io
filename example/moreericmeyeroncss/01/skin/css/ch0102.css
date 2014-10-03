@@ -46,6 +46,14 @@ body {
     padding: 0;
 }
 
+#masthead {
+    background: white url(../image/stripe.gif) 0 43 repeat-x;
+}
+
+#masthead img {
+    display: block;
+}
+
 #navbar {
     background: #F0DFB4 url(../image/tab-curve.gif) bottom left no-repeat;
     position: absolute;
@@ -99,6 +107,12 @@ body {
 
 #review .lead {
     text-indent: 0;
+}
+
+#subhead {
+    position: absolute;
+    top: 46px;
+    left: 151px;
 }
 
 table {
