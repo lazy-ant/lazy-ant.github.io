@@ -1,0 +1,10 @@
+body {
+    background: #EDD;
+    margin: 1em;
+}
+
+div#footer {
+    clear: both;
+    padding-top: 3em;
+    font: 85% Verdana, sans-serif;
+}
