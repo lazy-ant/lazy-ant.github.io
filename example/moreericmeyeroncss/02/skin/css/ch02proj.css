@@ -8,3 +8,38 @@ div#footer {
     padding-top: 3em;
     font: 85% Verdana, sans-serif;
 }
+
+div.pic {
+    float: left;
+    height: 130px;
+    width: 130px;
+    background: white;
+    margin: 5px 3px;
+    padding: 15px;
+    background: url(../image/frame-ls.gif) center no-repeat;
+}
+
+div.ls img {
+    height: 96px;
+    width: 128px;
+    margin: 16px 0;
+}
+
+div.pt {
+    background: url(../image/frame-pt.gif);
+}
+
+div.pt img {
+    height: 128px;
+    width: 96px;
+    margin: 0 16px;
+}
+
+div.pic img {
+    border: 1px solid;
+    border-color: #444 #AAA #AAA #444;
+}
+
+div.pic ul {
+    display: none;
+}
