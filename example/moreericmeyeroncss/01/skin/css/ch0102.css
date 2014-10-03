@@ -2,6 +2,15 @@ a.navlink {
     text-decoration: none;
 }
 
+blockquote.pull {
+    width: 40%;
+    font-size: medium;
+    font-weight: blod;
+    padding: 1em 0 1em 5%;
+    margin: 0;
+    float: right;
+}
+
 body {
     font: x-small Verdana, Arial, Helvetica, sans-serif;
     margin: 0;
@@ -49,8 +58,14 @@ body {
 #navbar a {
     text-decoration: none;
     color: #000;
-    padding: 0 1em 1px 0;
+    padding: 2px 0.5em 1px;
     border-bottom: 1px solid gray;
+}
+
+#navbar a:hover {
+    color: white;
+    background: #336;
+    border-bottom-width: 3px;
 }
 
 #navbar b {
@@ -71,6 +86,7 @@ body {
 
 #review p {
     text-indent: 2em;
+    line-height: 1.3;
 }
 
 #review .summary {
@@ -78,6 +94,7 @@ body {
     border-top: 1px dotted #600;
     display: inline;
     text-indent: 0;
+    line-height: normal;
 }
 
 #review .lead {
