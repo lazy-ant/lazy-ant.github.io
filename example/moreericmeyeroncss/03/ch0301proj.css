@@ -28,17 +28,26 @@ td {
 td {
     font: smaler Verdana, 'Andale Mono', Courier, 'Courier New', monospace;
     letter-spacing: -1px;
+    border-right: 1px solid #CCC;
 }
 
 td.neg {
     background: #FF3;
     color: red;
+    font-style: italic;
 }
 
 td.profit {
     background: #CEC;
     border-bottom-color: white;
     border-right: 1px solid gray;
+    font-weight: bold;
+}
+
+td.profit,
+td.neg {
+    color: #000;
+    background: #FFF;
 }
 
 thead th {
@@ -54,16 +63,28 @@ th {
     white-space: nowrap;
 }
 
-#totals td {
+tr#totals * {
+    border-top: 1px solid gray;
+}
+
+tr#totals td {
     font-weight: bold;
 }
 
-#totals td.profit {
+tr#totals td.profit {
     border: 1px solid black;
 }
 
-#totals th {
-    border-style: solid;
+tr#totals th {
+    border-bottom: none;
+    text-transform: uppercase;
 }
 
+tr.odd * {
+    background: #EEE;
+    border: 1px solid #EEE;
+}
 
+tr.even * {
+    border: 1px solid #EEE;
+}
