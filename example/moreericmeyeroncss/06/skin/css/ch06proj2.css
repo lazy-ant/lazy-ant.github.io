@@ -1,0 +1,100 @@
+body {
+    background: #EEE;
+    color: #000;
+}
+
+h1 {
+    color: #AAA;
+    border-bottom: 1px solid;
+    margin-bottom: 0;
+}
+
+#main {
+    color: #CCC;
+    margin-left: 7em;
+    padding: 2em 0 1px 5%;
+    border-left: 1px solid;
+}
+
+div#nav {
+    float: left;
+    background: #FFF;
+    border: 1px solid #AAA;
+    margin: -1px 0 0 7em;
+}
+
+div#nav ul {
+    margin: 0;
+    padding: 0;
+    background: white;
+    border: 1px solid #CCC;
+    border-width: 0 1px;
+}
+
+div#nav ul ul {
+    position: absolute;
+    display: none;
+    width: 7em;
+}
+
+div#nav ul ul li {
+    border-bottom: 1px solid #CCC;
+}
+
+div#nav li {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    float:left;
+    width: 7em;
+}
+ 
+div#nav li:hover {
+    background: #EBB;   
+}
+
+div#nav li.submenu {
+    background: url(../image/dropmenu.gif) 98% 50% no-repeat;
+}
+
+div#nav li.submenu li.submenu {
+    background-image: url(../image/submenu.gif) 98% 50% no-repeat;
+}
+
+div#nav li.submenu li.submenu:hover {
+    background-color: #EDD;
+}
+
+div#nav li.submenu:hover {
+    background-color: #EDD;
+}
+
+div#nav li a {
+    display: block;
+    padding: 0.25em 0 0.25em 0.5em;
+    text-decoration: none;
+    width: 6.5em;
+}
+
+div#nav>ul a {
+    width: auto;
+}
+
+div#nav ul.level1 li.submenu:hover ul.level2 {
+    display: block;
+}
+
+div#nav ul.level2 li.submenu:hover ul.level3 {
+    display: block;
+}
+
+div#nav ul.level2 {
+    top: 1.5em;
+    left: -1px;
+}
+
+div#nav ul.level3 {
+    top: -1px;
+    left: 7em;
+    border-top: 1px solid #CCC;
+}
