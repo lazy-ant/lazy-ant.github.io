@@ -20,4 +20,58 @@ div#nav {
     float: left;
     width: 7em;
     background: #FDD;
+    margin: -1px 0 0 -1px;
+}
+
+div#nav ul {
+    margin: 0;
+    padding: 0;
+    width: 7em;
+    background: white;
+    border: 1px solid #AAA;
+}
+
+div#nav ul ul {
+    position: absolute;
+    top: 0;
+    left: 7em;
+    display: none;
+}
+
+div#nav li {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    border-bottom: 1px solid #CCC;
+}
+ 
+div#nav li:hover {
+    background: #EBB;   
+}
+
+div#nav li.submenu {
+    background: url(../image/submenu.gif) 98% 50% no-repeat;
+}
+
+div#nav li.submenu:hover {
+    background-color: #EDD;
+}
+
+div#nav li a {
+    display: block;
+    padding: 0.25em 0 0.25em 0.5em;
+    text-decoration: none;
+    width: 6.5em;
+}
+
+div#nav>ul a {
+    width: auto;
+}
+
+div#nav ul.level1 li.submenu:hover ul.level2 {
+    display: block;
+}
+
+div#nav ul.level2 li.submenu:hover ul.level3 {
+    display: block;
 }
