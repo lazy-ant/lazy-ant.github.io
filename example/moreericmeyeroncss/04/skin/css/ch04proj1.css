@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(71%, 71%, 71%) url('../image/morn-wash.jpg') 100% 0 no-repeat;
+}
+
+#masthead {
+    background: rgb(2%, 4%, 4%) url('../image/morn-base.jpg') 100% 0 no-repeat;
+    padding: 2.5em 0 0;
+}
+
+#masthead h1 {
+    background: rgb(4%, 4%, 4%) url('../image/morn-fade.jpg') 100% -1.25em no-repeat;
+    border: 1px solid black;
+    border-width: 1px 0;
+    margin: -1px 0 0;
+    color: #EED;
+    font: small-caps bold 2em/1em Arial, sans-serif;
+    text-align: right;
+    padding: 0.25em 0.33em;
+}
+
+#main {
+    margin: 1.25em 5em 0 5em;
+}
+
+#main h2 {
+    margin: 0;
+    font-size: 1.25;
+}
+
+#main p {
+    margin: 0.5em 0 1em;
+}
