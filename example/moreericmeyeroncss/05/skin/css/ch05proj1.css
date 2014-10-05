@@ -1,0 +1,57 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 80% Verdana, Arial, Helvetica, sans-serif;
+    margin: 0; 
+    padding: 0;
+    background: rgb(95%,95%,80%); 
+    color: black;
+}
+
+h1 {
+    font-size: 200%;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+    margin: 0;
+    padding: 0.66em 0 0.33em 29%;
+    background: rgb(85%,85%,70%);
+}
+
+h3 {
+    font-size: 1.33em;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid black;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 0;
+    padding: 0.33em 0 0;
+    border-bottom: 1px solid rgb(50%,50%,35%);
+}
+
+h1,
+h3,
+h4 {
+    line-height: 1em;
+}
+
+p {
+    line-height: 1.5;
+    margin: 0.5em 0 1em;
+}
+
+div#entry {
+    margin: 2em 10% 1em 30%;
+    padding: 0;
+}
+
+div#sidebar {
+    float: left;
+    width: 23%;
+    margin: 2em 0 0 2%;
+}
