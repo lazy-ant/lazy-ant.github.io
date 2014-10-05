@@ -54,4 +54,46 @@ div#sidebar {
     float: left;
     width: 23%;
     margin: 2em 0 0 2%;
+    background: url(../image/arrow.gif) 100% 100% no-repeat;
+    padding: 0 0 15px;
 }
+
+#sidebar a {
+    text-decoration: none;
+    padding: 0 0.5em 0 0;
+    border-bottom: 1px solid rgb(84%, 84%, 69%);
+    margin-left: 15px;
+}
+
+#sidebar a:link {
+    color: rgb(20%, 40%, 0%);
+}
+
+#sidebar a:hover {
+    color: rgb(10%, 20%, 0%); 
+    border-color: rgb(98%, 48%, 40%);
+    background: url(../image/arrow2.gif) 0 100% no-repeat;
+    padding-left: 15px;
+    margin-left: 0;
+}
+
+#sidebar a:visited {
+    color: rgb(58%, 68%, 40%);
+}
+
+#sidebar li {
+    padding: 0.5em 0 0.25em;
+}
+
+#sidebar ul {
+    list-style: none;
+    margin: 0 6px 0 0;
+    padding: 0 0 10px;
+    border-right: 3px double rgb(50%, 50%, 35%);
+    text-align: right;
+}
+
+#sidebar h4 {
+    margin: 0 6px 0 0;
+}
+
