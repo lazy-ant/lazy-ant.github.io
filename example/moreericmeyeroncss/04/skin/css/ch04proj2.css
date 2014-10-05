@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(14%, 26%, 30%);
+}
+
+#main {
+    width: 600px;
+    margin: 2em auto;
+    border: 3px solid black;
+    background: rgb(7%, 13%, 15%) url(../image/storm-base.jpg) 0 0 no-repeat;
+}
+
+#main h1 {
+    background: url(../image/storm-wash.jpg) -1em -1.25em no-repeat;
+    font: 2em/1em "Times New Roman", serif;
+    letter-spacing: 0.1em;
+    text-transform: lowercase;
+    text-align: center;
+    margin: 1.25em 1em 0;
+    border: 1px solid black;
+    border-bottom: none;
+    padding: 0.5em 0.25em;
+}
+
+#content {
+    border: 1px solid black;
+    color: rgb(210, 185, 150);
+    margin: 0 2em 2.5em;
+    padding: 1.5em;
+    background: rgb(4%, 8%, 9%) url(../image/storm-fade.jpg) -2em -6.5em no-repeat;
+}
+
+#content p {
+    margin: 0 0 1em;
+    text-align: justify;
+}
