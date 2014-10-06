@@ -1,0 +1,59 @@
+body, 
+html {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background: #EEF;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+h1 {
+    color: #FFF;
+    background: rgb(0%, 56%, 4%);
+    font: bold 200%/1em Arial, Verdana, sans-serif;
+    padding: 1em 1em 0;
+    margin: 0;
+    border: 1px solid rgb(0%, 31%, 46%);
+    border-width: 2px 0;
+}
+
+#main {
+    font-size: small;
+    color: #AAA;
+    background: #FFF;
+    border-top: 1px solid gray;
+    padding: 2.5% 12.5%;
+    clear: left;
+}
+
+#nav {
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {
+    list-style: none;
+    float: left;
+    margin: 0;
+    width: 15%;
+    white-space:nowrap;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+#nav a {
+    background: #CCC url(../image/tab-bumps.gif) 2px 50% no-repeat;
+    border: 1px solid;
+    border-color: #FFF #333 #333 #FFF;
+    color: #333;
+    display: block;
+    font-weight: bold;
+    padding: 0 0 0 20px;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    background-color: #333;
+    color: #CCC;
+    border-color: #000 #CCC #CCC #000;
+}
