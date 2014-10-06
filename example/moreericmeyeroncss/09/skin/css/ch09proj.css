@@ -1,0 +1,235 @@
+a:link {
+    color: rgb(0%, 50%, 40%);
+    background: transparent;
+}
+
+a:visited {
+    color: rgb(30%, 50%, 30%);
+    background: transparent;
+}
+
+body {
+    color: rgb(18%, 19%, 17%);
+    background: rgb(85%, 92%, 81%);
+    font: 0.85em Verdana, sans-serif;
+}
+
+#footer {
+    border-top: 3px double;
+    margin: 0;
+    padding: 0.75em 1em 1em;
+    font-size: 75%;
+    color: rgb(20%, 40%, 20%);
+    background: rgb(73%, 82%, 73%);
+}
+
+#footer p {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    padding: 2em 25% 3em 1.5em;
+}
+
+.panel {
+    position: absolute;
+    top: 6em;
+    right: 0;
+    width: 17%;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+.panel a:link {
+    color: rgb(30%, 50%, 30%);
+}
+
+.panel a:hover {
+    color: rgb(50%, 30%, 20%);
+}
+
+.panel a:visited,
+#presolinks a {
+    color: rgb(50%, 60%, 50%);
+}
+
+.panel h4 {
+    margin: 0;
+    padding: 0.33em 0.5em 1px 0.25em;
+    background: rgb(75%, 85%, 70%) url(../image/nav-bg.gif) 100% 0.66em no-repeat;
+    font-size: 1em;
+    font-style: italic;
+    color: rgb(20%, 40%, 20%);
+    border-style: solid solid dotted;
+    border-width: 1px 0 1px 2px;
+    border-color: rgb(40%, 60%, 40%);
+    line-height: 0.7em;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+}
+
+.panel #natural {
+    font-weight: bold;
+    font-style:italic;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    background: rgb(83%, 90%, 78%);
+    border: 1px dotted rgb(45%, 65%, 45%);
+    border-right: none;
+    margin-left: -1px;
+}
+
+.panel #natural a {
+    color: rgb(30%, 40%, 30%);
+}
+
+.panel ul {
+    margin: 0 0 1.5em;
+    padding: 0.25em 0 0.5em;
+    list-style: none;
+    background: url(../image/nav-bg.gif) 100% -0.5em no-repeat;
+    border-left: 1px solid rgb(45%, 65%, 45%);
+}
+
+.panel ul li {
+    padding: 0.15em 0 0.1em 0.5em;
+}
+
+.panel ul ul {
+    margin: 0;
+    padding: 0 0 0 0.5em;
+    background: none;
+    font-style: italic;
+    border-left: none;
+}
+
+.panel ul ul li {
+    padding-top: 0;
+}
+
+.skipper {
+    display: none;
+}
+
+#sitemast {
+    margin: 0;
+    padding: 0 0 1em;
+    background: rgb(73%, 82%, 73%) url(../image/mh-light.jpg) 100% -30px no-repeat;
+    border: 1px solid rgb(45%, 65%, 45%);
+    border-width: 0 0 1px 1.5em;
+}
+
+#sitemast h1 {
+    background: rgb(45%, 65%, 45%) url(../image/masthead.jpg) 100% -30px no-repeat;
+    margin: 0;
+    padding: 1.5em 0.5em 0 0;
+    font: bold 2em/0.75em Arial, Verdana, sans-serif;
+}
+
+#sitemast h1 a {
+    color: rgb(20%, 40%, 20%);
+    text-decoration: none;
+}
+
+#weblog {
+    width: 99%;
+}
+
+#weblog .entry {
+    margin: 0 0 2em 0;
+    letter-spacing: -1px;
+}
+
+#weblog h3 {
+    font-size: 150%;
+    text-align: center;
+    color: rgb(10%, 30%, 10%);
+    border: 1px solid rgb(30%, 50%, 30%);
+    border-width: 1px 0;
+    margin-bottom: 1.5em;
+    background: url(../image/title.gif) 50% 100% no-repeat;
+    height: 45px;
+}
+
+#weblog h3 span {
+    position: absolute;
+    left: -50em;
+    width: 50em;
+}
+
+#weblog h4.title,
+#weblog h5.date {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Verdana, sans-serif;
+    line-height: 1em;
+    letter-spacing: 0;
+}
+
+#weblog h4.title {
+    font-size: 1.25em;
+    padding: 5px 25px 0 0;
+    margin: 0 47% -1px 0;
+    border-bottom: 1px solid rgb(50%, 66%, 50%);
+    text-align: right;
+    background: url(../image/leaf-up.gif) 100% 0 no-repeat;
+}
+
+#weblog h4.title a {
+    text-decoration: none;
+    color: rgb(15%, 30%, 15%);
+}
+
+#weblog h4.title a:hover {
+    border-top: 1px dotted rgb(50%, 61%, 48%);
+}
+
+#weblog h4.title a:hover:before {
+    content: "# ";
+    color: rgb(50%, 61%, 48%);
+}
+
+#weblog h5.date {
+    font-size: 0.9em;
+    text-align: left;
+    padding: 0 0 5px 25px;
+    border-top: 1px solid;
+    margin: 0 0 0 47%;
+    background: url(../image/leaf-down.gif) 0 100% no-repeat;
+    color: rgb(50%, 66%, 50%);
+}
+
+#weblog .moreinfo {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    border-right: 1px solid rgb(65%, 75%, 65%);
+    color: rgb(50%, 66%, 50%);
+    font-style: italic;
+}
+
+#weblog .moreinfo a {
+    color: rgb(50%, 66%, 50%);
+    font-style: normal;
+}
+
+#weblog .moreinfo li {
+    display: inline;
+    list-style: none;
+    border-left: 1px solid rgb(65%, 75%, 65%);
+    padding: 0 0.5em;
+}
+
+#weblog p {
+    line-height: 1.4em;
+}
+
+#weblog .border {
+    border: 3px double #666;
+    background: #ABA;
+}
+
+#weblog .pic {
+    float: right;
+    margin: 1em 0 1em 2em;
+}
