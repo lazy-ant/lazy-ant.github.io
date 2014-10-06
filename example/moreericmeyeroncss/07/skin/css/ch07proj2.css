@@ -1,0 +1,62 @@
+body, 
+html {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background: #FFF;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+h1 {
+    color: #FFF;
+    background: rgb(0%, 56%, 4%);
+    font: bold 200%/1em Arial, Verdana, sans-serif;
+    padding: 1em 1em 0;
+    margin: 0;
+    border: 1px solid rgb(0%, 31%, 46%);
+    border-width: 2px 0;
+}
+
+#main {
+    font-size: small;
+    color: #AAA;
+    background: #FFF;
+    padding: 2.5% 12.5%;
+    clear: left;
+}
+
+#nav {
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {
+    list-style: none;
+    float: left;
+    white-space:nowrap;
+    font-size: 10px;
+    line-height: 20px;
+    margin-left: 1px;
+    padding-left: 16px;
+    background: #BBB url(../image/tabs2-big.gif) 0 100% no-repeat;
+}
+
+#nav a {
+    background: #DDD url(../image/tabs2-big.gif) 100% 100% no-repeat;
+    color: #333;
+    display: block;
+    font-weight: bold;
+    padding: 0 16px 0 0;
+    text-decoration: none;
+    width: auto;
+}
+
+#nav a:hover {
+    color: rgb(62%, 35%, 22%);
+}
+
+#nav #current,
+#nav #current a {
+    color: #FDB;
+    background-image: url(../image/tabs2-big-ct.gif);
+}
