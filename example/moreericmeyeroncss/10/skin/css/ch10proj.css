@@ -73,6 +73,42 @@ body {
     text-transform: uppercase;
 }
 
+#preamble {
+    background: url(../image/side.jpg) 100% 100% repeat-y;
+    border-top: 1px solid rgb(184, 214, 194);
+}
+
+#preamble,
+#supportingText {
+    padding-right: 217px;
+}
+
+#preamble,
+#explanation,
+#participation,
+#benefits,
+#requirements {
+    border-left: 1px solid rgb(184, 214, 194);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#preamble p,
+#supportingText p {
+    font-size: 90%;
+    line-height: 1.66em;
+    margin: 0 1.5em;
+    padding: 0.5em 0;
+}
+
+#preamble h3,
+#supportingText h3 {
+    letter-spacing: 0.1em;
+    font: italic 1.2em Times, "Times New Roman", serif;
+    color: rgb(107, 153, 139);
+    margin: 1em 0 0.5em 0.5em;
+}
+
 #quickSummary {
     font: italic 1em/2 Times, "Times New Roman", serif;
     background: rgb(94%, 98%, 96%) url(../image/quickSummary.jpg) 0 100% no-repeat;
@@ -91,4 +127,8 @@ body {
 
 #quickSummary p.p2:after {
     content: ".";
+}
+
+#supportingText {
+    background: url(../image/side.jpg) 100% 0 repeat-y;
 }
