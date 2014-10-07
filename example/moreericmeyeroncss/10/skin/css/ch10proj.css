@@ -1,0 +1,74 @@
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(179, 63, 96);
+}
+
+a:visited {
+    color: (90, 32, 48);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+acronym {
+    border: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000;
+    background: #FFF;
+}
+
+#container {
+    width: 647px;
+    margin: 75px auto 0;
+    padding: 0;
+    text-align: left;
+    position: relative;
+}
+
+#pageHeader {
+    background: url(../image/pageHeader.jpg) 0 0 no-repeat;
+    height: 157px;
+    width: auto;
+}
+
+#pageHeader h1 {
+    background: url(../image/ph-flower.gif) 0 0 no-repeat;
+    height: 330px;
+    width: 250px;
+    position: absolute;
+    top: -95px;
+    right: -80px;
+    margin: 0;
+    z-index: 101;
+}
+
+#pageHeader h1 span {
+    visibility: hidden;
+}
+
+#pageHeader h2 {
+    position: absolute;
+    z-index: 102;
+    top: 134px;
+    right: 140px;
+    padding: 0;
+    margin: 0;
+    font: bold italic 1.1em/1em Times, serif;
+    text-align: right;
+    color: rgb(91, 131, 104);
+    letter-spacing: 0.2em;
+    text-transform: lowercase;
+}
+
+#pageHeader h2 acronym {
+    text-transform: uppercase;
+}
