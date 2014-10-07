@@ -48,6 +48,73 @@ body {
     font-weight: 100;
 }
 
+#linkList {
+    position: absolute;
+    z-index: 11;
+    top: 157px;
+    right: 0;
+    width: 216px;
+    margin-top: 8.6em;
+}
+
+#linkList a {
+    color: rgb(99, 131, 101);
+    font: italic 1.15em Times, serif;
+    text-transform: lowercase;
+}
+
+#linkList h3 {
+    margin: 1em 0 0;
+    width: 216px;
+    height: 35px;
+    background: url(../image/resources.gif) 10px 50% no-repeat;
+}
+
+#linkList h3 span {
+    display: none;
+}
+
+#lselect h3 {
+    background-image: url(../image/design-list.gif);
+}
+
+#lselect li {
+    font-size: 85%;
+    margin-bottom: 1.5em;
+}
+
+#lselect li a {
+    display: block;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-transform: lowercase;
+}
+
+#lselect li a.c {
+    display: inline;
+    text-transform: none;
+    letter-spacing: 0;
+    font: bold 1em Times, serif;
+}
+
+#larchives h3 {
+    background-image: url(../image/archives.gif);
+}
+
+#larchives li,
+#lresources li {
+    margin-bottom: 0.5em;
+}
+
+#larchives li a,
+#lresources li a {
+    color: rgb(126, 164, 139);
+}
+
+#linkList li {
+    list-style: none;
+}
+
 #pageHeader {
     background: url(../image/pageHeader.jpg) 0 0 no-repeat;
     height: 157px;
