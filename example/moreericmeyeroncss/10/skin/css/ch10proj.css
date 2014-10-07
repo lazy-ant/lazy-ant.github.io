@@ -72,3 +72,23 @@ body {
 #pageHeader h2 acronym {
     text-transform: uppercase;
 }
+
+#quickSummary {
+    font: italic 1em/2 Times, "Times New Roman", serif;
+    background: rgb(94%, 98%, 96%) url(../image/quickSummary.jpg) 0 100% no-repeat;
+    color: rgb(42, 92, 42);
+    margin: 1px 0;
+    padding: 1em 180px 1.5em 1.5em;
+}
+
+#quickSummary p {
+    display: inline;
+}
+
+#quickSummary p.p2 {
+    margin-left: 0.25em;
+}
+
+#quickSummary p.p2:after {
+    content: ".";
+}
