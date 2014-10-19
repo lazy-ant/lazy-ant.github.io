@@ -7,3 +7,5 @@
 2. *<a href="https://github.com/lazy-ant/reading_notes/blob/master/02MaintainableJavaScript/index.md" target="_blank">编写可维护的JavaScript</a>*
 
 3. *<a href="https://github.com/lazy-ant/reading_notes/blob/master/03MoreEricMeyerOnCSS/index.md" target="_blank">Eric Meyer谈CSS(卷2)</a>*
+
+4. *<a href="https://github.com/lazy-ant/reading_notes/blob/master/04CSSTheDefinitiveGuide/index.md" target="_blank">CSS权威指南</a>*
