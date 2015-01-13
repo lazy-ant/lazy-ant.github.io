@@ -1,4 +1,4 @@
-_site/*
+.idea/*
 _theme_packages/*
 
 Thumbs.db
@@ -8,3 +8,6 @@ Thumbs.db
 
 .rbenv-version
 .rvmrc
+*.swp
+*~
+*.*~
